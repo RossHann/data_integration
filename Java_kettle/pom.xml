@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.example</groupId>
+    <artifactId>Java_kettle</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+    </properties>
+
+    <repositories>
+        <repository>
+            <id>aliyun-repo</id>
+            <url>http://maven.aliyun.com/nexus/content/groups/public</url>
+        </repository>
+<!--        <repository>-->
+<!--            <id>spring-repo</id>-->
+<!--            <url>https://repo.spring.io/release</url>-->
+<!--        </repository>-->
+<!--        <repository>-->
+<!--            <id>rosjava-mvn-repo</id>-->
+<!--            <url>https://github.com/rosjava/rosjava_mvn_repo/raw/master</url>-->
+<!--        </repository>-->
+        <repository>
+            <id>central</id>
+            <url>https://repo.maven.org/maven2/</url>
+        </repository>
+    </repositories>
+
+    <dependencies>
+<!--        kettle-vfs-20100924.jar-->
+        <dependency>
+            <groupId>org.kettle</groupId>
+            <artifactId>kettle-vfs</artifactId>
+            <version>20100924</version>
+        </dependency>
+<!--        kettle-ui-swt.jar-->
+        <dependency>
+            <groupId>org.kettle</groupId>
+            <artifactId>ui-swt</artifactId>
+            <version>1.1.0</version>
+        </dependency>
+<!--        kettle-test.jar-->
+        <dependency>
+            <groupId>org.kettle</groupId>
+            <artifactId>kettle-test</artifactId>
+            <version>1.1.0</version>
+        </dependency>
+<!--        kettle-engine.jar-->
+        <dependency>
+            <groupId>org.kettle</groupId>
+            <artifactId>kettle-engine</artifactId>
+            <version>1.1.0</version>
+        </dependency>
+<!--        kettle-dbdialog.jar-->
+        <dependency>
+            <groupId>org.kettle</groupId>
+            <artifactId>kettle-dbdialog</artifactId>
+            <version>1.1.0</version>
+        </dependency>
+<!--        kettle-db.jar-->
+        <dependency>
+            <groupId>org.kettle</groupId>
+            <artifactId>kettle-db</artifactId>
+            <version>1.1.0</version>
+        </dependency>
+<!--        kettle-core.jar-->
+        <dependency>
+            <groupId>org.kettle</groupId>
+            <artifactId>kettle-core</artifactId>
+            <version>1.1.0</version>
+        </dependency>
+<!--        jug-2.0.0.jar-->
+        <dependency>
+            <groupId>org.kettle</groupId>
+            <artifactId>jug</artifactId>
+            <version>2.0.0</version>
+        </dependency>
+<!--        jtds-1.2.5.jar-->
+        <dependency>
+            <groupId>org.kettle</groupId>
+            <artifactId>jtds</artifactId>
+            <version>1.2.5</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.scannotation</groupId>
+            <artifactId>scannotation</artifactId>
+            <version>1.0.3</version>
+        </dependency>
+
+<!--        以下是Quartz定时器的动态配置依赖-->
+        <dependency>
+            <groupId>org.quartz-scheduler</groupId>
+            <artifactId>quartz</artifactId>
+            <version>2.2.2</version>
+        </dependency>
+        <dependency>
+            <groupId>org.quartz-scheduler</groupId>
+            <artifactId>quartz-jobs</artifactId>
+            <version>2.2.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.tomcat.embed</groupId>
+            <artifactId>tomcat-embed-core</artifactId>
+            <version>9.0.43</version>
+        </dependency>
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
+            <version>1.2.3</version>
+        </dependency>
+    </dependencies>
+
+</project>
+
+<!--/Users/russellhan/Downloads/kettle-->

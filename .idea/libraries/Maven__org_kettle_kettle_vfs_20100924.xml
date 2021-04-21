@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.kettle:kettle-vfs:20100924">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/kettle/kettle-vfs/20100924/kettle-vfs-20100924.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/kettle/kettle-vfs/20100924/kettle-vfs-20100924-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/kettle/kettle-vfs/20100924/kettle-vfs-20100924-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
