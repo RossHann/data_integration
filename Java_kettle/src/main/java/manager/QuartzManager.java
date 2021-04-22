@@ -9,7 +9,6 @@ import org.quartz.impl.matchers.GroupMatcher;
 import java.util.*;
 
 public class QuartzManager {
-
     /**
      * @param jobClass 任务实现类
      * @param jobName 任务名称
@@ -46,7 +45,6 @@ public class QuartzManager {
             e.printStackTrace();
         }
     }
-
     /**
      * 增加一个job
      * @param jobClass 任务实现类
@@ -58,7 +56,6 @@ public class QuartzManager {
     public void addJob(Class<? extends Job> jobClass, String jobName, String jobGroupName, int jobTime){
         addJob(jobClass, jobName, jobGroupName, jobTime, -1);
     }
-
     /**
      * 增加一个job
      * @param jobClass 任务实现类
@@ -95,7 +92,6 @@ public class QuartzManager {
             e.printStackTrace();
         }
     }
-
     /**
      * 修改一个job的时间表达式
      * @param jobName
@@ -120,7 +116,6 @@ public class QuartzManager {
             e.printStackTrace();
         }
     }
-
     /**
      * 删除一个任务
      * @param jobName 任务名称
@@ -137,7 +132,6 @@ public class QuartzManager {
             e.printStackTrace();
         }
     }
-
     /**
      * 暂停一个job
      * @param jobName
@@ -155,7 +149,6 @@ public class QuartzManager {
             e.printStackTrace();
         }
     }
-
     /**
      * 恢复一个job
      * @param jobName
@@ -173,7 +166,6 @@ public class QuartzManager {
             e.printStackTrace();
         }
     }
-
     /**
      * 立即执行一个job
      * @param jobName
@@ -191,7 +183,6 @@ public class QuartzManager {
             e.printStackTrace();
         }
     }
-
     /**
      * 获取所有计划中的任务列表
      * @return
@@ -228,7 +219,6 @@ public class QuartzManager {
         }
         return jobList;
     }
-
     /**
      * 获取所有正在运行的job
      * @return
